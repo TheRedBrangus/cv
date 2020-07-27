@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Me</title>
+</head>
+
+<body>
+  Would you like to:<br><br>
+  <label for="drink">🍺Drink🍺</label>
+  <input type="checkbox" id="drink" name="drink">
+  <label for="eat">🍕Eat🍕</label>
+  <input type="checkbox" id="eat" name="eat">
+  <label for="drugs">💊Do drugs💊</label>
+  <input type="checkbox" id="drugs" name="drugs">
+  <hr>
+  <table border="6">
+    <td>
+      <form action="mailto:josiahhall@ymail.com" method="post" enctype="text/plain">
+        <label for="your_name">Your Name:</label>
+        <input type="text" id="your_name" name="yourName" placeholder="John Doe"><br>
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="yourEmail" placeholder="Email">
+    </td>
+  </table><br>
+  <table border="6">
+    <th colspan="3">Drug of choice:</th>
+    <tr>
+      <td>
+        <label for="cocaine">Cocaine</label>
+        <input type="radio" id="cocaine" name="drug_of_choice" value="Cocaine">
+      </td>
+      <td>
+        <label for="marijuana">Marijuana</label>
+        <input type="radio" id="marijuana" name="drug_of_choice" value="Marijuana">
+      </td>
+      <td>
+        <label for="heroine">Heroine</label>
+        <input type="radio" id="heroine" name="drug_of_choice" value="Heroine">
+      </td>
+    </tr>
+  </table>
+  <label for="your_message"></label><br>
+  <textarea id="your_message" name="yourMessage" rows="10" cols="30" placeholder="Your message here..."></textarea><br>
+  <input type="submit" value="Holler at me!">
+  </form>
+
+  <br><br>
+  <a href="index.html">Back</a>
+</body>
+
+</html>
